@@ -31,10 +31,10 @@
 						<input class="form-control me-2" type="search" name="q" placeholder="Buscar livros, autores..." aria-label="Buscar">
 						<button class="btn btn-outline-light" type="submit" aria-label="Enviar busca">Buscar</button>
 					</form>
-
-					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-						<li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-shop" aria-hidden="true"></i> Loja</a></li>
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-cart" aria-hidden="true"></i> Carrinho</a></li>
+					</ul>
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 						<li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person-circle" aria-hidden="true"></i> Login</a></li>
 					</ul>
 
