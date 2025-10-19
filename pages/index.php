@@ -1,15 +1,12 @@
 <?php
-
+include '../includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livraria Virtual</title>
-    <link rel="stylesheet" href="../CSS/style.css">
-</head>
-<body>
-    
-</body>
-</html>
+<div>
+    <main class="container my-4">
+        <h1>Bem-vindo à Livraria Virtual</h1>
+        <p>Explore nossa coleção de livros e encontre seu próximo favorito!</p>
+    </main>
+</div>
+<?php
+include '../includes/footer.php';
+?>
