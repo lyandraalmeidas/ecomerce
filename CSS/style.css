@@ -99,18 +99,18 @@ body {
 }
 
 .nav-action-btn.cart-btn {
-    background: rgba(0, 255, 98, 0.2);
-    border: 1px solid rgba(9, 255, 0, 0.4);
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.3);
 }
 
 .nav-action-btn.cart-btn:hover {
-    background: rgba(0, 255, 98, 0.2);
-    box-shadow: 0 4px 12px rgba(9, 255, 0, 0.4);
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 4px 12px rgba(255,255,255,0.5);
 }
 
 .nav-action-btn.login-btn {
     background: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,255,255,0.3);
 }
 
 .nav-action-btn.login-btn:hover {
@@ -135,6 +135,7 @@ body {
 }
 
 .search-form .btn-outline-light {
+    background-color: rgba(255,255,255,0.1);
     border-color: rgba(255,255,255,0.3);
     color: var(--cor-texto-claro);
     transition: var(--transition);
@@ -144,6 +145,7 @@ body {
     background-color: rgba(255,255,255,0.1);
     border-color: rgba(255,255,255,0.5);
     transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(255,255,255,0.5);
 }
 
 .search-form .form-control {

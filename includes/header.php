@@ -38,10 +38,10 @@
                             <i class="bi bi-cart3" aria-hidden="true"></i>
                             <span class="d-none d-md-inline">Carrinho</span>
                         </a>
-                        <a href="#" class="nav-action-btn login-btn">
-                            <i class="bi bi-person-circle" aria-hidden="true"></i>
-                            <span class="d-none d-md-inline">Login</span>
-                        </a>
+                            <a href="#" class="nav-action-btn login-btn">
+                                <i class="bi bi-person-circle" aria-hidden="true"></i>
+                                <span class="d-none d-md-inline">Login</span>
+                            </a>
                     </div>
                 </div>
             </div>
