@@ -21,7 +21,11 @@ body {
 header { 
     background-color: var(--cor-secundaria) !important;
     box-shadow: var(--header-shadow) !important;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 
 .search-form {
@@ -83,6 +87,11 @@ header {
     transition: var(--transition);
 }
 .container {
+    position: relative;
+    top: 100px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
     max-width: 1200px;
     padding: 0 15px;
 }
