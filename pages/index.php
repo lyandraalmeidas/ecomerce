@@ -2,15 +2,19 @@
 include '../includes/header.php';
 ?>
 
-<main class="container my-5">
-    <section class="text-center mb-5">
-        <h1 class="display-4 mb-3">Bem-vindo ao eBooksCloud</h1>
-        <p class="lead">A livraria mais original do Brasil. Explore nossa coleção de livros e encontre seu próximo favorito!</p>
+<main class="flex-grow-1">
+    <section class="categories container my-5">
+        <div class="row gy-5">
+            <?php
+            include '../includes/produtos.php';
+            // Renderiza os carrosseis
+            render_product_carousel('Popular', 'Livros Populares', $produtos['popular'], 5);
+            render_product_carousel('Novidades', 'Novidades', $produtos['novidades'], 5);
+            render_product_carousel('EmBreve', 'Em Breve', $produtos['em_breve'], 5);
+            ?>
+        </div>
     </section>
-
-    <?php
-    include '../includes/produtos.php';
-    ?>
+</main>
     
 </main>
 <?php
